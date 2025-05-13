@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brechó da Bola</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-row">
+            <div class="logo"><img src="img/logo.png" alt="Brechó da Bola"></div>
+            <input type="text" placeholder="Pesquisar..." class="search-bar">
+            <div class="icons">
+                <i class="fa-solid fa-circle-half-stroke" onclick="toggleContraste()"></i>
+                <i class="fa-solid fa-user" href="perfil.html"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <nav>
+            <a href="pagina inicial.html">Sobre</a>
+            <a href="avalicoes.html">Avaliações</a>
+            <a href="serviços.html">Serviços</a>
+            <a href="contato.html">Contatos</a>
+            <a href="anuncieaqui.html">Anuncie</a>
+            <a href="Produtos.html">Produtos</a>
+
+        </nav>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+    
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget("https://vlibras.gov.br/app");
+          </script>
+    </header>
+    <hr color="#0055aa" size="5px" width="100%">
+
+    <main>
+        <section>
+            <h1 class="contact-section">CONTATOS:</h1>
+            <div class="formulario-linha">
+                <div class="formulario-botao">
+                    <a href="formulario.html" style="text-decoration: none;color: white;">Formulário</a>
+                </div>
+            </div>
+            <p class="opiniao-texto"><u>Sua opinião é muito importante para nós!</u></p>
+            <div class="contact-container">
+                <div class="contact-card">
+                    <img src="img/luigi.png" alt="Luigi Vasselo" class="profile-img">
+                    <h3>Luigi Vasselo</h3>
+                    <p>(14) 99646-5577</p>
+                    <p>luigi.campanati@portalsesisp.org.br</p>
+                </div>
+                <div class="contact-card">
+                    <img src="img/yago.png" alt="Yago Lobo" class="profile-img">
+                    <h3>Yago Lobo</h3>
+                    <p>(14) 98106-4851</p>
+                    <p>yago.lobo@portalsesisp.org.br</p>
+                </div>
+                <div class="contact-card">
+                    <img src="img/henzo.png" alt="Henzo Huss" class="profile-img">
+                    <h3>Henzo Huss</h3>
+                    <p>(14) 99694-4631</p>
+                    <p>henzo.oliveira@portalsesisp.org.br</p>
+                </div>
+                <div class="contact-card">
+                    <img src="img/gui.png" alt="Guilherme Melo" class="profile-img">
+                    <h3>Guilherme Melo</h3>
+                    <p>(14) 99106-9334</p>
+                    <p>guilherme.melo3@portalsesisp.org.br</p>
+                </div>
+                <div class="contact-card">
+                    <img src="img/pedro.png" alt="Pedro Henrique" class="profile-img">
+                    <h3>Pedro Henrique</h3>
+                    <p>(14) 99127-0350</p>
+                    <p>pedro.cesar@portalsesisp.org.br</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="https://x.com/" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

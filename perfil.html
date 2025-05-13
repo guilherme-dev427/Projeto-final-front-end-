@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Brechó da Bola</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-row">
+            <div class="logo">
+                <a href="pagina inicial.html"></a><img src="img/logo.png" alt="Brechó da Bola"></div>
+            
+            <input type="text" placeholder="Pesquisar..." class="search-bar">
+            <div class="icons">
+                <i class="fa-solid fa-circle-half-stroke" onclick="toggleContraste()"></i>
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <nav>
+            <a href="pagina inicial.html">Sobre</a>
+            <a href="avalicoes.html">Avaliações</a>
+            <a href="serviços.html">Serviços</a>
+            <a href="contato.html">Contatos</a>
+            <a href="anuncieaqui.html">Anuncie</a>
+            <a href="Produtos.html">Produtos</a>
+        </nav>
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+              <div class="vw-plugin-top-wrapper"></div>
+            </div>
+          </div>
+    
+          <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+          <script>
+            new window.VLibras.Widget("https://vlibras.gov.br/app");
+          </script>
+    </header>
+    <hr color="#0055aa" size="5px" width="100%">
+
+   <main>
+   
+        <section class="perfil">
+            <div class="perfil-header">MEU PERFIL:</div>
+            <div class="perfil-container">
+                <div class="foto-perfil">
+                    <img src="img/perfil.png" alt="Foto de perfil">
+                </div>
+                <div class="dados-perfil">
+                    <p><strong>Nome:</strong><br> Rafael Altieres</p>
+                    <p><strong>E-mail:</strong><br> raphaelaltieris@gmail.com</p>
+                    <p><strong>Senha:</strong><br> ******* <span class="eye-icon">👁️</span></p>
+                </div>
+            </div>
+   </main>
+<br>
+<br>
+<br>
+    <footer>
+        <div class="social-icons">
+            <a href="https://x.com/" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.whatsapp.com/?lang=pt_BR" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="https://www.facebook.com/" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
